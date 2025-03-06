@@ -22,7 +22,7 @@
             </div>
             <div class="flex justify-between items-center gap-10">
                 <div class="flex justify-center items-center gap-2 bg-[#F4F7FF] rounded-[32px] px-4">
-                    <input id="checkbox" type="checkbox"  class=" scale-150">
+                    <input id="checkbox" type="checkbox"  class=" scale-150" checked>
                     <h1 class="text-3xl font-bold" id="topNumber"  >23</h1>
                 </div>
                 <div class="bg-[#F4F7FF] rounded-full p-2">
@@ -42,14 +42,14 @@
             <div class="grid grid-cols-4 grid-rows-1 gap-3">
                 <div class="flex justify-center items-center gap-6 bg-[#F4F7FF] rounded-xl p-4">
                     <div class="bg-white  rounded-full">
-                        <input class="scale-150" type="checkbox" name="" id="">
+                        <input class="scale-150" type="checkbox" name="" id="" checked>
                     </div>
                     <div class="flex justify-between flex-col items-start gap-1 ">
                         <p class="text-sm">Task Assigned</p>
                         <h1 class="text-4xl font-bold" id="firstNumber">06</h1>
                     </div>
                 </div>
-                <div class="flex justify-start col-span-2 items-center gap-5   px-6 bg-gradient-to-r from-[#3752FD] to-[#6C7FFA] rounded-xl">
+                <div class="flex justify-start col-span-2 items-center gap-5   px-6 bg-gradient-to-r from-[#3752FD] to-[#6C7FFA] rounded-xl" id="nextBtn">
                     <div>
                         <img src="images/fi_18577309.png" alt="">
                     </div>
@@ -60,11 +60,11 @@
                 </div>
                 <div class="flex justify-center items-center gap-6 bg-[#F4F7FF] rounded-xl p-4">
                     <div class="bg-white  rounded-full">
-                        <i class="fa-solid fa-calendar-days"></i>
+                        <i class="fa-solid fa-calendar-days text-2xl"></i>
                     </div>
                     <div class="flex justify-between flex-col items-start gap-1 ">
-                        <p class="text-sm">Mon</p>
-                        <h1 class="text-xl font-bold">3 March,2025</h1>
+                        <p class="text-sm" id="dayname">Mon</p>
+                        <h1 class="text-xl font-bold" id="datebtn">3 March,2025</h1>
                     </div>
                 </div>
             </div>
@@ -226,3 +226,4 @@
     <script src="app.js"></script>
 </body>
 </html>
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="images/Vector.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>QnA</title>
+</head>
+<body class="max-w-screen p-10 mx-auto bg-[#F4F7FF] ">
+    <header class="mb-8 bg-white p-4 rounded-2xl">
+        <nav class="flex justify-between items-center">
+            <div class="flex justify-between items-center gap-3">
+                <img src="images/Vector.png" alt="">
+                
+                <img src="images/DevBoard.png" alt="">
+            </div>
+            <div>
+                <button class="text-xl p-3 rounded-xl bg-blue-600 text-white" id="backBtn">Back To Desk</button>
+            </div>
+        </nav>
+</header>
+
+<main>
+    <div class="text-center mb-6">
+        <h1 class="text-3xl font-extrabold">Blogs</h1>
+    </div>
+    <div>
+        <div>
+            <h1 class="text-2xl font-bold bg-white rounded-xl p-6">Question-1: What are the different ways to select an element in the DOM?</h1>
+            
+            <hr class="border-dashed border border-gray-300">
+            
+            <p class="text-xl font-normal bg-white rounded-xl p-6 text-gray-400">By using Id,class,tagnames we can select an element like getElementById,getElementsByClassName,quarySelector etc.</p>
+        </div>
+        <br>
+        <div>
+            <h1 class="text-2xl font-bold bg-white rounded-xl p-6">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h1>
+            
+            <hr class="border-dashed border border-gray-300">
+            
+            <p class="text-xl font-normal bg-white rounded-xl p-6 text-gray-400">In innerHtml we can write the html codes but in innerText we can only write text content</p>
+        </div>
+        <br>
+        <div>
+            <h1 class="text-2xl font-bold bg-white rounded-xl p-6">Question-3: What is event delegation in the DOM?</h1>
+            
+            <hr class="border-dashed border border-gray-300">
+            
+            <p class="text-xl font-normal bg-white rounded-xl p-6 text-gray-400">It means handeling event,like we can set the event to the parent without setting it individual element,some of the common events are click,change and many more.</p>
+        </div>
+        <br>
+        <div>
+            <h1 class="text-2xl font-bold bg-white rounded-xl p-6">Question-4: What is event bubbling in the DOM?</h1>
+            
+            <hr class="border-dashed border border-gray-300">
+            
+            <p class="text-xl font-normal bg-white rounded-xl p-6 text-gray-400"> It allows parent elements to respond to events triggered by their child elements mane child elemnt a kono event gotano hole seta tar parent element e cole jay and parent elemnt setar response create kore.</p>
+        </div>
+        <br>
+        <div>
+            <h1 class="text-2xl font-bold bg-white rounded-xl p-6">Question-5: How do you create, add, and remove elements using JavaScript?</h1>
+            
+            <hr class="border-dashed border border-gray-300">
+            
+            <p class="text-xl font-normal bg-white rounded-xl p-6 text-gray-400">by using createElement we can create new elements.
+                by using appendChild we can add elements.
+                by using removeChild we can remove elements.
+            </p>
+        </div>
+    </div>
+</main>
+
+
+<script src="second.js"></script>
+</body>
+</html>
